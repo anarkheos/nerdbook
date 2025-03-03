@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Nerbook</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- Materialize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Materialize JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- Fonts -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+  </style>
+</head>
+
+<body>
+
+  <!-- Barra Superior -->
+  <div class="row">
+    <div class="_p_bar col s2 m1 l1">
+      <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+    <div class="col s8 m10 l10">
+      <nav>
+        <div class="nav-wrapper">
+          <form>
+            <div class="input-field">
+              <input id="search" type="search" required>
+              <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+              <i class="material-icons">close</i>
+            </div>
+          </form>
+        </div>
+      </nav>
+    </div>
+    <div class="_logo col s2 m1 l1">
+      <img src="images/profile.png" class="_logo">
+    </div>
+  </div>
+  
+  <!-- Barra lateral -->
+  </div>
+    <div class="_p_bar_menu">
+      <ul id="slide-out" class="sidenav">
+        <li>
+          <div class="user-view">
+            <a href="profile.html"><img class="circle" src="images/profile.png"></a>
+            <a href="profile.html"><span class="black-text name">Nickname</span></a>
+            <a href="profile.html"><span class="black-text email">@Nickname</span></a>
+          </div>
+        </li>
+
+        <li>
+          <div class="divider"></div>
+        </li>
+        <li><a class="subheader">Feed</a></li>
+        <li><a href="index.html"><i class="material-icons">home</i>Home</a></li>
+        <li><a href="#!"><i class="material-icons">attachment</i>Guardados</a></li>
+        <li><a href="#!"><i class="material-icons">notifications</i>Notificaciones</a></li>
+
+        <li>
+          <div class="divider"></div>
+        </li>
+        <li><a class="subheader">Trends</a></li>
+        <li><a href="foros.html"><i class="material-icons">people</i>Foros</a></li>
+        <li><a href="posts.html"><i class="material-icons">comment</i>Posts</a></li>
+        <li><a href="papers.html"><i class="material-icons">search</i>Investigaciones</a></li>
+
+        <li>
+          <div class="divider"></div>
+        </li>
+        <li><a class="subheader">Me</a></li>
+        <li><a href="profile.html"><i class="material-icons">person</i>Cuenta</a></li>
+        <li><a href="#!"><i class="material-icons">settings</i>Ajustes</a></li>
+      </ul>
+    </div>
+    <!-- Contenido de la pagina-->
+
+    <div class="container">
+      <!-- Chips -->
+
+      <div class="_yts"><p>Papers Populares</p></div>
+
+
+      <!-- Cartas -->
+
+      <div class="card">
+        <div class="card-content">
+          <div class="text-content">
+            <p><strong>Impacto de la IA en el empleo</strong></p>
+            <p>u/futuro_laboral</p>
+            <div>
+                <p>Con el avance de la automatización, muchos trabajos están en riesgo. ¿Nos dirigimos hacia...</p>
+            </div>
+            <div class="actions">
+                <span><i class="small material-icons">arrow_upward</i></span>
+                <span><i class="small material-icons"></i>14</span>
+                <span><i class="small material-icons">arrow_downward</i></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="image-content">
+            <img src="posts/09.jpg" alt="Imagen de la publicación">
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <div class="text-content">
+            <p><strong>¿Por qué fracasan los emprendimientos?</strong></p>
+            <p>u/emprende_smart</p>
+            <div>
+                <p>Se dice que 9 de cada 10 startups cierran en sus primeros 5 años...</p>
+            </div>
+            <div class="actions">
+                <span><i class="small material-icons">arrow_upward</i></span>
+                <span><i class="small material-icons"></i>65</span>
+                <span><i class="small material-icons">arrow_downward</i></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="image-content">
+            <img src="posts/11.jpg" alt="Imagen de la publicación">
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <div class="text-content">
+            <p><strong>Educación universitaria vs Aprendizaje autodidacta</strong></p>
+            <p>u/edutalks</p>
+            <div>
+                <p>En la era digital, muchos profesionales aprenden por su cuenta ¿Es...</p>
+            </div>
+            <div class="actions">
+                <span><i class="small material-icons">arrow_upward</i></span>
+                <span><i class="small material-icons"></i>25</span>
+                <span><i class="small material-icons">arrow_downward</i></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="image-content">
+            <img src="posts/10.jpg" alt="Imagen de la publicación">
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-content">
+          <div class="text-content">
+            <p><strong>El dilema de la privacidad en redes sociales</strong></p>
+            <p>u/ciberseguridad_hoy</p>
+            <div>
+                <p>Cada vez compartimos más información en línea, pero...</p>
+            </div>
+            <div class="actions">
+              <span><i class="small material-icons">arrow_upward</i></span>
+              <span><i class="small material-icons"></i>41</span>
+              <span><i class="small material-icons">arrow_downward</i></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="image-content">
+            <img src="posts/12.jpg" alt="Imagen de la publicación">
+          </div>
+        </div>
+      </div>
+
+      <div class="spacer"></div>
+      
+    </div>
+  
+    <script src="script.js"></script>
+</body>
+
+</html>

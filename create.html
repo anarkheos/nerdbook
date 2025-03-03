@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Nerbook</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <!-- Materialize CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Materialize JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!-- Fonts -->
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+        </style>
+    </head>
+
+    <div class="row">
+        <div class="_p_bar col s2 m1 l1">
+          <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+        <div class="col s8 m10 l10">
+          <nav>
+            <div class="nav-wrapper">
+              <form>
+                <div class="input-field">
+                  <input id="search" type="search" required>
+                  <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                  <i class="material-icons">close</i>
+                </div>
+              </form>
+            </div>
+          </nav>
+        </div>
+        <div class="_logo col s2 m1 l1">
+          <img src="images/profile.png" class="_logo">
+        </div>
+      </div>
+    
+      <!-- Barra lateral -->
+      <div>
+        <div class="_p_bar_menu">
+          <ul id="slide-out" class="sidenav">
+            <li>
+              <div class="user-view">
+                <a href="profile.html"><img class="circle" src="images/profile.png"></a>
+                <a href="profile.html"><span class="black-text name">Nickname</span></a>
+                <a href="profile.html"><span class="black-text email">@Nickname</span></a>
+              </div>
+            </li>
+    
+            <li>
+              <div class="divider"></div>
+            </li>
+            <li><a class="subheader">Feed</a></li>
+            <li><a href="#!"><i class="material-icons">home</i>Home</a></li>
+            <li><a href="#!"><i class="material-icons">attachment</i>Guardados</a></li>
+            <li><a href="#!"><i class="material-icons">notifications</i>Notificaciones</a></li>
+    
+            <li>
+              <div class="divider"></div>
+            </li>
+            <li><a class="subheader">Trends</a></li>
+            <li><a href="#!"><i class="material-icons">people</i>Foros</a></li>
+            <li><a href="#!"><i class="material-icons">comment</i>Posts</a></li>
+            <li><a href="#!"><i class="material-icons">search</i>Investigaciones</a></li>
+    
+            <li>
+              <div class="divider"></div>
+            </li>
+            <li><a class="subheader">Me</a></li>
+            <li><a href="#!"><i class="material-icons">person</i>Cuenta</a></li>
+            <li><a href="#!"><i class="material-icons">settings</i>Ajustes</a></li>
+            <li><a href="#!"><i class="material-icons">face</i>:(</a></li>
+          </ul>
+        </div>
+      </div>
+
+<body>
+    <div class="container">
+        <div class="card-panel">
+            <h5>Create Post</h5>
+            
+            <div class="input-field">
+                <select>
+                    <option value="1" selected>u/me</option>
+                    <option value="2">f/bogota_rd</option>
+                </select>
+            </div>
+    
+            <div class="chips chips-placeholder">
+            </div>
+    
+            <div class="input-field">
+                <input type="text" id="title" maxlength="250">
+                <label for="title">Title*</label>
+            </div>
+    
+            <div class="input-field">
+                <textarea id="body" class="materialize-textarea" maxlength="600"></textarea>
+                <label for="body">Body*</label>
+            </div>
+    
+            <div class="file-field input-field">
+                <div class="btn">
+                    <span>Upload</span>
+                    <input type="file">
+                </div>
+                <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text" placeholder="Upload an image">
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col s6">
+                    <button class="btn grey">Draft</button>
+                </div>
+                <div class="col s6 right-align">
+                    <button class="btn blue">Post</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <script src="script.js"></script>
+    </div>
+
+</body>
+</html>

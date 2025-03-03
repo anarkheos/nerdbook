@@ -1,0 +1,194 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+/* Index */
+h1, h2, h3, h4, h5 {
+  font-family: 'Reddit Sans', cursive;
+  text-align: center;
+}
+
+p {
+  font-family: 'Roboto', cursive;
+}
+
+/* Chips */
+.chip {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: auto;
+}
+
+/* Cartas */
+
+.card {
+  width: 0 auto;
+  background-color: #e0e0e0;
+  /* Color de fondo similar a la imagen */
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 0.5rem;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+}
+
+.text-content {
+  flex: 1;
+  padding: 5px;
+}
+
+.text-content p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.text-content strong {
+  font-size: 18px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.actions span {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.image-content {
+  width: 100px;
+  height: 100px;
+}
+
+.image-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Barra de menu */
+._p_bar {
+  background-color: #8c49d0;
+}
+
+@media (min-width: 1000px) {
+  ._p_bar {
+    background-color: #8c49d0;
+    border: solid 3px #8c49d0;
+  }
+}
+
+._p_bar i {
+  font-size: 3em;
+  color: #ffffff;
+  margin: 0.5rem;
+  text-align: center;
+}
+
+.nav-wrapper {
+  background-color: #8c49d0;
+  margin-left: -12px;
+  margin-right: -12px;
+  box-shadow: None !important;
+  margin: NONE !important;
+  color: #ffffff;
+}
+
+._test {
+  background-color: #000000 !important;
+}
+
+._logo {
+  background-color: #8c49d0;
+}
+
+._logo img{
+  margin-top: 0.5em;
+  width: 3em;
+  height: 3em;
+}
+
+@media (min-width: 1000px) {
+  ._logo {
+    background-color: #8c49d0;
+    border: solid 3px #8c49d0;
+  }
+}
+
+._post img {
+  width: 80px;
+  height: 80px;
+}
+
+._post p {
+  font-size: 1.5em;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #333;
+}
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.post-header {
+  display: flex;
+  align-items: center;
+}
+.comment-section {
+  margin-left: 50px;
+  border-left: 2px solid #eee;
+  padding-left: 10px;
+}
+.spacer {
+  height: 50px; /* Ajusta la altura según lo que necesites */
+  width: 100%;
+}
+._spacer {
+  height: 25px; /* Ajusta la altura según lo que necesites */
+  width: 100%;
+}
+
+._menu p{
+  font-size: 1.5em;
+}
+._menu strong{
+  font-size: 2em;
+}
+._menu img{
+  width: 100px;
+  height: 100px;
+}
+._menu_btn {
+  padding: 1em;
+}
+
+.user-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  width: fit-content;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+._yts p{
+  font-size: 32px;
+  color: #333;
+}
